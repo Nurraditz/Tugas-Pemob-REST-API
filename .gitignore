@@ -1,0 +1,55 @@
+# ============================================
+# Monorepo: Backend CI4 + Frontend Flutter
+# ============================================
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+
+# ----- IDE -----
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ----- Backend CI4 -----
+backend/vendor/
+backend/writable/logs/*
+!backend/writable/logs/index.html
+backend/writable/cache/*
+!backend/writable/cache/index.html
+backend/writable/session/*
+!backend/writable/session/index.html
+backend/writable/uploads/*
+!backend/writable/uploads/index.html
+backend/writable/debugbar/*
+!backend/writable/debugbar/index.html
+backend/.env
+
+# ----- Frontend Flutter -----
+frontend/.dart_tool/
+frontend/.packages
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/local.properties
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/.last_build_id
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/ios/Flutter/Generated.xcconfig
+frontend/windows/flutter/generated_plugin_registrant.cc
+frontend/windows/flutter/generated_plugin_registrant.h
+frontend/windows/flutter/generated_plugins.cmake
+frontend/linux/flutter/generated_plugin_registrant.cc
+frontend/linux/flutter/generated_plugin_registrant.h
+frontend/linux/flutter/generated_plugins.cmake
+frontend/macos/Flutter/GeneratedPluginRegistrant.swift
+frontend/macos/Flutter/ephemeral/
+frontend/.metadata
+frontend/pubspec.lock
+*.class
+*.lock
+*.log
